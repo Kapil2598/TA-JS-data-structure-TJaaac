@@ -9,7 +9,7 @@
 // - A variable named `age` is predefined with value 20. Add a new key named `character-age` with the value of `age` variable i.e 20 (don't use the value 20)
 
 let age = 20;
-
+s
 // - Add a new key `sur name` with the value of the surname of the character i.e "Stark". (Don't remove the space between `sur` and `name`)
 
 // - Add a new key `title` with the value title of the character i.e "Lady of Winterfell"
