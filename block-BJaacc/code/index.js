@@ -1,13 +1,13 @@
 // 1. Define a variable named `students` and assign a blank object to it.
-
+let students={}
 // 2. Add a key of the value of variable `studentName` in the object created above with the value of your name.
-
+students.studentsName = "Yash";
 // 3. Using `console.log` log the value of `studentName` key from the `students` object
-
+console.log(studentsName);
 // 4. Add a another key of the value of variable `batch` in the object with the value of 16.
-
+students.batch =16;
 // 5. Using `console.log` log the value of `batch` key from the `students` object
-
+console.log(students.batch);
 // 6. Add another key in the object with the value of the variable `isAdult`. The value of the key should be `true/false`
 
 // 7. Using `console.log` print the value of `isAdult` key from the `students` object
