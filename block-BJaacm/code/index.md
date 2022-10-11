@@ -19,7 +19,7 @@ let newUser = user;
 2. Answer the following with reason:
 
 - `user == newUser;` // output and reason
-- `user === newUser;`
+- `user === newUser;` g
 - `user.name === newUser.name;`
 - `user.name == newUser.name;`
 - `user.sibling == newUser.sibling;`
