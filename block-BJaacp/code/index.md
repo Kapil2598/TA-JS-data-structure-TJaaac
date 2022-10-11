@@ -19,7 +19,7 @@ Answer the following with reason after going through the above code:
 - `user == newObj`
 - `user == obj`
 - `arr == arr2`
-- `arr === arr2`
+- `arr === arr2` m
 
 2. What's will be the value of `person1` and `person2` ? Explain with reason. Draw the memory representation diagram.
 
