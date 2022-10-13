@@ -19,8 +19,8 @@ Hint: (Structure of got variable)
 */
 
 // 1. Log the value of key "houses"
-
-// 2. Log the length of the "houses" key
+console.log(houses);
+ // 2. Log the length of the "houses" key
 
 // 3. Log the name of all houses in got one by one
 
