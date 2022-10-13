@@ -10,12 +10,12 @@ let person2 = person;
 
 person.firstName = 'Arya';
 
-console.log(person2.firstName); // output
-console.log(person.firstName); // output
-console.log(person.lastName); // output
-console.log(person == person2); // output
-console.log(person === person2); // output
-console.log(person.lastName === person2.lastName); // output
+console.log(person2.firstName); // output Arya
+console.log(person.firstName); // output Arya
+console.log(person.lastName); // output Dow]e
+console.log(person == person2); // output false
+console.log(person === person2); // output false
+console.log(person.lastName === person2.lastName); // output false
 ```
 
 2. Write the output with reason:
@@ -37,17 +37,17 @@ let personTwo = { ...person };
 person.firstName = 'Arya';
 person.city = 'Navada';
 
-console.log(personTwo.firstName); // output
-console.log(person.firstName); // output
-console.log(personTwo.lastName); // output
-console.log(person.firstName === personTwo.firstName); // output
-console.log(person == personTwo); // output
-console.log(person === personTwo); // output
-console.log(person.address === personTwo.address); // output
-console.log(person.address == personTwo.address); // output
-console.log(personTwo.address.city); // output
-console.log(person.address.city); // output
-console.log(person.address.city == personTwo.address.city); // output
+console.log(personTwo.firstName); // output john
+console.log(person.firstName); // output john
+console.log(personTwo.lastName); // output doe
+console.log(person.firstName === personTwo.firstName); // output false because its clone
+console.log(person == personTwo); // output false because its clone
+console.log(person === personTwo); // output alse because its clone
+console.log(person.address === personTwo.address); // output false because its clone
+console.log(person.address == personTwo.address); // output false because its clone
+console.log(personTwo.address.city); // output san Jose
+console.log(person.address.city); // output san jose
+console.log(person.address.city == personTwo.address.city); // output false because its clone
 ```
 
 3. Write the output with reason:
@@ -69,12 +69,12 @@ let personTwo = { ...person, address: { ...person.address } };
 person.firstName = 'Arya';
 person.city = 'Navada';
 
-console.log(personTwo.firstName); // output
-console.log(person.firstName); // output
-console.log(personTwo.lastName); // output
-console.log(person.firstName === personTwo.firstName); // output
-console.log(person == personTwo); // output
-console.log(person === personTwo); // output
+console.log(personTwo.firstName); // output john
+console.log(person.firstName); // output doe
+console.log(personTwo.lastName); // output john
+console.log(person.firstName === personTwo.firstName); // output false because its clone
+console.log(person == personTwo); // output false because its clone
+console.log(person === personTwo); // output false because its clone
 console.log(person.address === personTwo.address); // output
 console.log(person.address == personTwo.address); // output
 console.log(personTwo.address.city); // output
@@ -103,7 +103,7 @@ let blogs = [
   },
 ];
 
-// Your code goes here
+let clonedBlogs = [ ... blogs];
 ```
 
 5. Clone the `question` variable into a new variable named `questionClone`
